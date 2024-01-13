@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "assistant-handle-interface"
+version = "0.1.0"
+description = "Interface for handling OpenAI assistants runs"
+authors = ["Izbushko <izbaizbushka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.7.2"
+pydantic = "^2.5.3"
+python-dotenv = "^1.0.0"
+langchain = "^0.1.0"
+aiogram = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
